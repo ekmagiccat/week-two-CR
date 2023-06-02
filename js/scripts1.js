@@ -41,3 +41,5 @@ function handleRadio(event) {
 window.addEventListener("load", function () {
   document.getElementById("radio-form").addEventListener("submit", handleRadio);
 });
+
+window.addEventListener("")
