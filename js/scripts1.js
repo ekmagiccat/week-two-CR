@@ -1,45 +1,17 @@
-function handleRadio(event) {
-  event.preventDefault();
-  const radioSelection = document.querySelector(
-    "input[name='animal']:checked"
-  ).value;
+window.onload = function () {
+  let form = document.querySelector("form");
+};
+form.onsubmit = function (event) {
+event.preventDefault();
+let dog = document.getElementById("doggy");
+let cat = document.getElementById("kitty");
+let dolphin = document.getElementById("dolph");
+let platypus = document.getElementById("plat");
+let radioSelection = document.querySelector(
+  "input[name='animal']:checked"
+).value;
+if (radioSelection === "doggy") {
+  option1.removeAttribute("class", "hidden");
 }
 
-window.addEventListener("load", function () {
-  document.getElementById("radio-form").addEventListener("submit", handleRadio);
-});
-
-function handleRadio(event) {
-  event.preventDefault();
-  const radioSelection = document.querySelector(
-    "input[name='live']:checked"
-  ).value;
-}
-
-window.addEventListener("load", function () {
-  document.getElementById("radio-form").addEventListener("submit", handleRadio);
-});
-
-function handleRadio(event) {
-  event.preventDefault();
-  const radioSelection = document.querySelector(
-    "input[name='tale']:checked"
-  ).value;
-}
-
-window.addEventListener("load", function () {
-  document.getElementById("radio-form").addEventListener("submit", handleRadio);
-});
-
-function handleRadio(event) {
-  event.preventDefault();
-  const radioSelection = document.querySelector(
-    "input[name='drink']:checked"
-  ).value;
-}
-
-window.addEventListener("load", function () {
-  document.getElementById("radio-form").addEventListener("submit", handleRadio);
-});
-
-window.addEventListener("")
+//let = document.getElementById("");
