@@ -15,7 +15,7 @@ This website
 ## Setup/Installation Requirements
 
 - Clone the repository from GitHub by navigating to the main page of the repository.
-- Above the list of files on the repository, click "<Code>".
+- Above the list of files on the repository, click "Code".
 - Then click "Download ZIP".
 - After downloading, open the file.
 - Navigate to "languages.html". Then open the file in your browser of choice for viewing.
