@@ -1,3 +1,7 @@
+body {
+  background-color: #ba829f;
+}
+
 h1 {
   text-align: center;
 }
@@ -6,6 +10,19 @@ h3 {
   text-align: center;
 }
 
+p {
+  font-weight: bold;
+}
+
+button {
+  background-color: #fffafd;
+  border: none;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 .hidden {
   display: none;
 }
