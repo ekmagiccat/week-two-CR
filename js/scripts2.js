@@ -1,5 +1,5 @@
 window.addEventListener("load", function () {
-  let form = document.querySelector("form");
+  let form = document.getElementById("drink-form");
   let option1 = document.getElementById("option1");
   let option2 = document.getElementById("option2");
   let option3 = document.getElementById("option3");
@@ -27,8 +27,25 @@ window.addEventListener("load", function () {
       option2.setAttribute("class", "hidden");
       option1.setAttribute("class", "hidden");
       option4.setAttribute("class", "hidden");
-
-      event.preventDefault();
+    } else if (radioSelection4 === "250" || radioSelection5 === "margarita") {
+      option2.removeAttribute("class", "hidden");
+      option3.setAttribute("class", "hidden");
+      option1.setAttribute("class", "hidden");
+      option4.setAttribute("class", "hidden");
+    } else if (
+      radioSelection2 === "starship" ||
+      radioSelection3 === "charlie"
+    ) {
+      option4.removeAttribute("class", "hidden");
+      option2.setAttribute("class", "hidden");
+      option1.setAttribute("class", "hidden");
+      option3.setAttribute("class", "hidden");
+    } else {
+      option1.removeAttribute("class", "hidden");
+      option2.setAttribute("class", "hidden");
+      option4.setAttribute("class", "hidden");
+      option3.setAttribute("class", "hidden");
     }
+    event.preventDefault();
   });
 });
