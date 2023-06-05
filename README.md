@@ -26,6 +26,6 @@ This website
 
 ## Known Bugs
 
-- The submit button does not currently reveal quiz results.
+- None
 
 ## License
